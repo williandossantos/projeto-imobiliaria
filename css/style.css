@@ -30,12 +30,12 @@
     border: 0;
     outline: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
 }
 body{
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
-    
+    overflow-x: hidden;
 }
 .container-fluido{
     padding: 0 2rem;
@@ -352,15 +352,7 @@ h4{
         flex-direction: column;
         gap: 3rem;
     }
-     /*
-    #destaque .destaque-wrapper:last-child{
-        max-width:30rem;
-        margin-top: 5rem;
-    }
-    #destaque .destaque-wrapper:last-child img{
-        width: 100%;
-        object-fit: cover;
-    }*/
+     
 }
 
 
@@ -417,7 +409,7 @@ h4{
     #destaque .destaque-wrapper:last-child{
         width: 100%;
         margin-top: 5rem;
-        text-align: center;
+     
     }
 }
 
