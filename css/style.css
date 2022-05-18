@@ -401,15 +401,12 @@ h4{
     }
 
     /*Destaque*/
-    #destaque{
-        display: block;
-        flex-direction: column;
-        gap: 5rem;
-    } 
     #destaque .destaque-wrapper:last-child{
         width: 100%;
         margin-top: 5rem;
-     
+    }
+    #destaque .destaque-wrapper:last-child img{
+        width: 100%;
     }
 }
 
